@@ -32,7 +32,7 @@ function App() {
         onChange={({ data, errors }) => setData(data)}
       />
       <div className="data">
-        <p className="error">{percentage != 100 && "Le total des pourcentages doit être égal à 100 %"}</p>
+        <p className="error">{percentage !== 100 && "Le total des pourcentages doit être égal à 100 %"}</p>
         <label>Données :</label>
         <code>{JSON.stringify(data)}</code>
       </div>
