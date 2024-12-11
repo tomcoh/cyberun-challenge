@@ -1,0 +1,52 @@
+{
+  "name": "cyberun-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@jsonforms/core": "^3.4.1",
+    "@jsonforms/examples": "^3.4.1",
+    "@jsonforms/material-renderers": "^3.4.1",
+    "@jsonforms/react": "^3.4.1",
+    "@mui/icons-material": "^6.2.0",
+    "@mui/material": "^6.2.0",
+    "@mui/x-date-pickers": "^7.23.1",
+    "@testing-library/react": "^16.1.0",
+    "cra-template-typescript": "1.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/jest": "^29.5.14",
+    "@types/react-dom": "^19.0.2",
+    "json-loader": "^0.5.7",
+    "web-vitals": "^4.2.4"
+  }
+}

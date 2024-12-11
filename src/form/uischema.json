@@ -1,0 +1,37 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/name",
+      "label": "Nom"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/countries",
+      "options": {
+        "detail": {
+          "type": "HorizontalLayout",
+          "elements": [
+            {
+              "type": "Control",
+              "scope": "#/properties/country",
+              "label": "Pays",
+              "options": {
+                "autocomplete": true
+              }
+            },
+            {
+              "type": "Control",
+              "scope": "#/properties/percentage",
+              "label": "Pourcentage",
+              "options": {
+                "custom": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
