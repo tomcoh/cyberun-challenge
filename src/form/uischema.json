@@ -9,6 +9,7 @@
     {
       "type": "Control",
       "scope": "#/properties/countries",
+      "label": "Pays",
       "options": {
         "detail": {
           "type": "HorizontalLayout",
